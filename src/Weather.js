@@ -13,5 +13,5 @@ export default function Weather(props) {
 
   axios.get(apiUrl).then(handleResponse);
 
-  return <h2> Hello from Weather</h2>;
+  return <h2> Hello from Weather App</h2>;
 }
